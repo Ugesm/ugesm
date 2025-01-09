@@ -1,0 +1,120 @@
+{
+    id: '2',
+    title: 'Ouverture des inscriptions 2024',
+    excerpt: 'Les inscriptions pour l\'année académique 2024-2025 sont maintenant ouvertes',
+    content: `
+      # Ouverture des inscriptions 2024-2025
+
+      L'UGESM vous informe que les inscriptions pour la nouvelle année académique sont ouvertes.
+
+      ## Documents requis :
+      - Copie du passeport
+      - Relevés de notes
+      - Diplôme du baccalauréat
+      - Photos d'identité
+
+      ## Dates importantes :
+      - Début des inscriptions : 1er mars 2024
+      - Date limite : 30 avril 2024
+      
+      Pour plus d'informations, contactez le bureau des inscriptions.
+    `,
+    imageUrl: '/images/posts/inscription.jpg',
+    date: '2024-02-10',
+    category: 'Actualités',
+    attachments: [
+      {
+        type: 'pdf',
+        url: '/documents/formulaire-inscription.pdf',
+        title: 'Formulaire d\'inscription',
+        thumbnailUrl: '/images/pdf-icon.png'
+      },
+      {
+        type: 'pdf',
+        url: '/documents/guide-inscription.pdf',
+        title: 'Guide d\'inscription',
+        thumbnailUrl: '/images/pdf-icon.png'
+      }
+    ],
+    likes: 0
+  },
+  {
+    id: '3',
+    title: 'Visite guidée du campus de Marrakech',
+    excerpt: 'Découvrez les installations et la vie étudiante à Marrakech',
+    content: `
+      # Visite guidée du campus de Marrakech
+
+      Découvrez notre magnifique campus à travers cette visite guidée vidéo.
+      
+      Dans cette vidéo, vous pourrez voir :
+      - Les salles de cours modernes
+      - La bibliothèque
+      - Les espaces de vie étudiante
+      - Les installations sportives
+      
+      N'hésitez pas à partager cette vidéo avec vos amis intéressés par les études au Maroc !
+    `,
+    imageUrl: '/images/posts/campus-tour.jpg',
+    date: '2024-02-01',
+    category: 'Vidéos',
+    videoUrl: 'https://www.youtube.com/watch?v=example',
+    attachments: [
+      {
+        type: 'video',
+        url: 'https://www.youtube.com/watch?v=example1',
+        title: 'Visite de la bibliothèque',
+        thumbnailUrl: '/images/posts/library-thumb.jpg'
+      },
+      {
+        type: 'video',
+        url: 'https://www.youtube.com/watch?v=example2',
+        title: 'Installations sportives',
+        thumbnailUrl: '/images/posts/sports-thumb.jpg'
+      }
+    ],
+    likes: 0
+  },
+  {
+    id: '4',
+    title: 'Bourses d\'excellence disponibles',
+    excerpt: 'Nouvelle opportunité de bourse pour les étudiants méritants',
+    content: `
+      # Bourses d'excellence 2024
+
+      L'UGESM est heureuse d'annoncer l'ouverture des candidatures pour les bourses d'excellence.
+
+      ## Critères d'éligibilité :
+      - Être étudiant en licence ou master
+      - Avoir une moyenne générale supérieure à 14/20
+      - Être impliqué dans la vie associative
+
+      ## Avantages de la bourse :
+      - Prise en charge des frais de scolarité
+      - Allocation mensuelle
+      - Accès prioritaire au logement étudiant
+
+      ## Comment postuler :
+      Envoyez votre dossier complet avant le 30 mars 2024.
+      
+      Pour plus de détails, contactez le bureau des bourses.
+    `,
+    imageUrl: '/images/posts/scholarship.jpg',
+    date: '2025-01-25',
+    category: 'Blog',
+    attachments: [
+      {
+        type: 'pdf',
+        url: '/documents/reglement-bourses.pdf',
+        title: 'Règlement des bourses',
+        thumbnailUrl: '/images/pdf-icon.png'
+      },
+      {
+        type: 'pdf',
+        url: '/documents/formulaire-bourse.pdf',
+        title: 'Formulaire de candidature',
+        thumbnailUrl: '/images/pdf-icon.png'
+      }
+    ],
+    likes: 0
+  }
